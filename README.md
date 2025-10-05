@@ -1,6 +1,7 @@
 
 
 ````markdown
+
 # Local Command-Line Chatbot
 
 This project is a command-line chatbot developed in Python that uses the `google/flan-t5-small` model from Hugging Face for text generation. The chatbot is capable of maintaining a short-term memory to handle multi-turn conversations coherently.
@@ -40,7 +41,7 @@ For a specific set of common facts (e.g., capital cities), the chatbot uses a lo
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-````
+
 
 2.  **Install Dependencies:**
     Install the required packages from the `requirements.txt` file.
@@ -76,3 +77,4 @@ Bot: The capital of Italy is Rome.
 User: /exit
 Bot: Exiting chatbot. Goodbye!
 ```
+````
