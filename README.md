@@ -77,4 +77,9 @@ Bot: The capital of Italy is Rome.
 User: /exit
 Bot: Exiting chatbot. Goodbye!
 ```
+
+## you can simple check this on google colad through this link 
+```
+https://colab.research.google.com/drive/1m0W3BX8_SiX-mEizZGzmFplK7OI6jt0S?usp=sharing
+```
 ````
