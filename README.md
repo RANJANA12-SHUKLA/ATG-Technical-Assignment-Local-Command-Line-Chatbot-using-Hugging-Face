@@ -77,6 +77,13 @@ Bot: The capital of Italy is Rome.
 User: /exit
 Bot: Exiting chatbot. Goodbye!
 ```
+## Demo Video: A face-cam recording explaining the working code (2–3 min).
+ 1.  Show code structure and walk-through
+ 2.  Run interaction examples
+ 3.  Talk about design decisions
+```
+ https://www.loom.com/share/208d3f7e81da41acbc830fd6d20c41dd?sid=904535f1-3287-4c6a-ad24-79dd8c84c4b2
+```
 
 ## you can simple check this on google colad through this link 
 ```
