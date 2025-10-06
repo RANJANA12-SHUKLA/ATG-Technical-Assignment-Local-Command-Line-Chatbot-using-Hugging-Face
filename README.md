@@ -38,7 +38,7 @@ or ambiguous factual responses due to their limited parameter size.
 
 When using **more powerful instruction-tuned models**, the hybrid approach becomes  unnecessary. 
 Models such as:
-
+- `microsoft/phi-2`
 - `mistralai/Mistral-7B-Instruct`
 - `meta-llama/Llama-2-7b-chat-hf` or `Llama-3-8B-Instruct`
 
@@ -47,6 +47,20 @@ are capable of generating **factually accurate, context-aware, and coherent resp
 > ⚙️ **Note:**  
 > The above models deliver much higher factual accuracy but require **GPU acceleration** for efficient inference.  
 > On CPU setups, the hybrid approach used in this project ensures factual reliability without compromising performance.
+
+
+### Advanced Version (Google Colab)
+For the best performance and to demonstrate the full capabilities of modern language models, I created an advanced version of this chatbot in a Google Colab notebook. This version leverages a free GPU to run a much more powerful model.
+
+**Model**: `microsoft/phi-2 (a 2.7B parameter model).`
+
+**Techniques**: Uses `8-bit quantization` for memory efficiency and advanced prompt engineering to ensure factual accuracy.
+
+**Click here to run the advanced chatbot in Google Colab**
+`https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing`
+
+
+> ⚙️ **Key Improvement**: Due to the high efficiency of this model in handling facts, the "hybrid approach" with a hard-coded dictionary was no longer necessary. This version is purely AI-driven.
 
 ## Setup Instructions
 
@@ -103,4 +117,8 @@ Bot: Exiting chatbot. Goodbye!
 ```
 https://colab.research.google.com/drive/1m0W3BX8_SiX-mEizZGzmFplK7OI6jt0S?usp=sharing
 ```
+**Click here to run the advanced chatbot in Google Colab**
+`https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing`
+
+
 ````
