@@ -56,9 +56,10 @@ For the best performance and to demonstrate the full capabilities of modern lang
 
 **Techniques**: Uses `8-bit quantization` for memory efficiency and advanced prompt engineering to ensure factual accuracy.
 
-**Click here to run the advanced chatbot in Google Colab**
-`https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing`
-
+## Click here to run the advanced chatbot in Google Colab
+```
+https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing
+```
 
 > ⚙️ **Key Improvement**: Due to the high efficiency of this model in handling facts, the "hybrid approach" with a hard-coded dictionary was no longer necessary. This version is purely AI-driven.
 
@@ -117,8 +118,9 @@ Bot: Exiting chatbot. Goodbye!
 ```
 https://colab.research.google.com/drive/1m0W3BX8_SiX-mEizZGzmFplK7OI6jt0S?usp=sharing
 ```
-**Click here to run the advanced chatbot in Google Colab**
-`https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing`
-
+## Click here to run the advanced chatbot in Google Colab**
+```
+https://colab.research.google.com/drive/1vzdSgLVcMIfYosVurkg4ljTh7BdUWkoI?usp=sharing
+```
 
 ````
