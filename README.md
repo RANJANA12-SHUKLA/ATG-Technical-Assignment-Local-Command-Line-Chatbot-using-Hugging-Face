@@ -30,9 +30,23 @@ The ultimate goal of this assignment was to create a chatbot that is not just a 
 
 This successful implementation of the memory system is what elevates the project from a simple text generator to a functional, coherent chatbot that meets the assignment's core objective.
 
-### Hybrid Approach for Robustness
+### Hybrid Approach and Model Scalability
 
-For a specific set of common facts (e.g., capital cities), the chatbot uses a local dictionary lookup. This is a deliberate design choice that checks for a known answer *before* calling the AI. This guarantees 100% accuracy and instant response times for the most frequent questions, making the system more robust and efficient.
+The hybrid lookup mechanism (dictionary-based fact retrieval) is primarily designed to enhance factual reliability 
+in smaller, CPU-friendly models such as `google/flan-t5-small`. These lightweight models occasionally generate incomplete 
+or ambiguous factual responses due to their limited parameter size.
+
+When using **more powerful instruction-tuned models**, the hybrid approach becomes  unnecessary. 
+Models such as:
+
+- `mistralai/Mistral-7B-Instruct`
+- `meta-llama/Llama-2-7b-chat-hf` or `Llama-3-8B-Instruct`
+
+are capable of generating **factually accurate, context-aware, and coherent responses** without relying on predefined lookups.
+
+> ⚙️ **Note:**  
+> The above models deliver much higher factual accuracy but require **GPU acceleration** for efficient inference.  
+> On CPU setups, the hybrid approach used in this project ensures factual reliability without compromising performance.
 
 ## Setup Instructions
 
